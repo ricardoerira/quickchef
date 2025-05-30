@@ -1,70 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>QuickChef Privacy Policy</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-
-    header {
-      background-color: orange;
-      color: white;
-      padding: 20px;
-      display: flex;
-      align-items: center;
-    }
-
-    header img {
-      height: 50px;
-      margin-right: 20px;
-    }
-
-    main {
-      padding: 20px;
-    }
-
-    h1 {
-      margin-top: 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookScan - Privacy Policy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Inter font can be added here if needed, Tailwind uses a sans-serif stack by default */
+        body {
+            font-family: 'Inter', sans-serif; /* Tailwind will apply its default sans-serif stack */
+        }
+        .header-custom-bg {
+            background-color: #fe9200; /* Header color */
+        }
+        .content-section h2 {
+            font-size: 1.5rem; /* equiv. to text-2xl */
+            font-weight: 600; /* equiv. to font-semibold */
+            margin-top: 1.5rem; /* equiv. to mt-6 */
+            margin-bottom: 0.75rem; /* equiv. to mb-3 */
+        }
+         .content-section h3 {
+            font-size: 1.25rem; /* equiv. to text-xl */
+            font-weight: 600; /* equiv. to font-semibold */
+            margin-top: 1.25rem; /* equiv. to mt-5 */
+            margin-bottom: 0.5rem; /* equiv. to mb-2 */
+        }
+        .content-section p, .content-section ul li {
+            margin-bottom: 0.5rem; /* equiv. to mb-2 */
+        }
+        .content-section ul {
+            list-style-type: disc;
+            padding-left: 1.5rem; /* equiv. to pl-6 */
+        }
+        .placeholder-text {
+            color: #6B7280; /* equiv. to text-gray-500 */
+            font-style: italic;
+        }
+    </style>
 </head>
-<body>
+<body class="bg-gray-100 text-gray-800">
 
-  <header>
-    <img src="logo.jpeg" alt="QuickChef Logo" />
-    <h1>Privacy Policy</h1>
-  </header>
+    <header class="header-custom-bg py-6 shadow-md">
+        <div class="container mx-auto px-4 flex flex-row items-center">
+            <img src="header.png" alt="CookScan Logo" class="h-16 sm:h-20 md:h-24 mr-4 rounded">
+            <h1 class="text-2xl sm:text-3xl font-bold text-white">Privacy Policy</h1>
+        </div>
+    </header>
 
-  <main>
-    <p>Last updated: [Date]</p>
+    <main class="container mx-auto px-4 py-8">
+        <div class="bg-white p-6 sm:p-8 rounded-lg shadow-lg content-section">
+            <p class="text-sm text-gray-600"><strong>Last Updated:</strong> May 29, 2025</p>
 
-    <h2>1. Introduction</h2>
-    <p>Welcome to QuickChef. Your privacy is important to us. This Privacy Policy explains how we collect, use, and protect your information.</p>
+            <p class="mt-4">CookScan ("us", "we", or "our") operates the CookScan mobile application (the "Service" or "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our iOS App. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the application.</p>
+            <p>We reserve the right to make changes to this Privacy Policy at any time and for any reason. We will alert you about any changes by updating the "Last Updated" date of this Privacy Policy. You are encouraged to periodically review this Privacy Policy to stay informed of updates.</p>
 
-    <h2>2. Information We Collect</h2>
-    <p>We collect the following data:</p>
-    <ul>
-      <li>Personal identification information (name, email address, etc.)</li>
-      <li>Usage data (interactions, preferences, etc.)</li>
-    </ul>
+            <h2>1. Collection of Your Information</h2>
+            <p>We may collect information about you in a variety of ways. The information we may collect via the App depends on the content and materials you use, and includes:</p>
 
-    <h2>3. How We Use Your Information</h2>
-    <p>We use your data to provide, improve, and personalize our services, and to communicate important updates.</p>
+            <h3>Personal Data You Provide to Us</h3>
+            <p>We collect personally identifiable information, such as your email address, name, and photographs of ingredients, that you voluntarily give to us when you register with the App (if applicable) or when you choose to participate in various activities related to the App, such as uploading photos for recipe generation.</p>
+            <ul>
+                <li><strong>Account Information:</strong> If you create an account, we may collect your name, email address, and password. The purpose of collecting this information is to create and manage your account, provide you with access to certain features, and communicate with you.</li>
+                <li><strong>Ingredient Photographs:</strong> When you use our core feature to generate recipes from photos, you provide us with images of food ingredients. The purpose of collecting these images is solely to analyze them with our AI to identify ingredients and suggest recipes. These images may be temporarily stored to improve our AI model's accuracy but are not used to personally identify you unless linked to your account.</li>
+                <li class="placeholder-text"><strong>User Content:</strong> [If users can save recipes, rate them, or add notes, specify that data collection here and its purpose.]</li>
+            </ul>
 
-    <h2>4. Data Storage and Security</h2>
-    <p>Data is stored using Firebase services. We implement strong security measures to protect your information.</p>
+            <h3>Data Collected Automatically</h3>
+            <h4>Usage Data</h4>
+            <p>Information our servers automatically collect when you access the App, such as your IP address, your browser type, your operating system, your access times, and the pages you have viewed directly before and after accessing the App. If you are using our mobile application, this information may also include your device name and type, your operating system, your phone number (if provided), your country, your likes and replies to a post, and other interactions with the application and other users via server log files, as well as any other information you choose to provide.</p>
+            <p>The purpose of collecting Usage Data is to understand how our Service is used, to monitor and improve the App's performance and stability, and for security purposes.</p>
 
-    <h2>5. Sharing Information</h2>
-    <p>We do not share your personal information with third parties except when legally required or with your consent.</p>
+            <h4>Mobile Device Data</h4>
+            <p>Device information, such as your mobile device ID, model, and manufacturer, and information about the location of your device, if you permit us to access this information. The purpose of collecting this information, if enabled, is <span class="placeholder-text">[e.g., to offer location-based recipe suggestions or for analytics to improve service coverage. Be specific.]</span></p>
 
-    <h2>6. User Rights</h2>
-    <p>You have the right to access, update, or delete your data. Contact us at support@quickchef.com for any requests.</p>
+            <h4>Camera Access</h4>
+            <p>Our App requires access to your device's camera to allow you to take photos of ingredients for recipe generation. We only access your camera when you actively use this feature. The images are processed as described under "Ingredient Photographs." We do not access your photo library unless you explicitly grant permission to select photos from it.</p>
 
-    <h2>7. Changes to This Policy</h2>
-    <p>We may update this policy from t
+            <h3 class="placeholder-text">Data From Third Parties</h3>
+            <p class="placeholder-text">[If you integrate with third-party services like social logins or other data sources, detail that here. E.g., "Information from social networks, such as Apple Game Center, Facebook, Google+, Instagram, Pinterest, Twitter, if you connect your account to such social networks." Be clear about what is collected and why.]</p>
+
+            <h3 class="placeholder-text">Tracking Technologies (Cookies, Beacons, etc.)</h3>
+            <p class="placeholder-text">[If you use any form of tracking, including for analytics or advertising, you must be very clear here. Apple's App Tracking Transparency (ATT) framework requires user consent for tracking across apps and websites owned by other companies.]</p>
+            <p class="placeholder-text">We may use cookies, web beacons, tracking pixels, and other tracking technologies on the App to help customize the App and improve your experience. When you access the App, your personal information is not collected through the use of tracking technology. Most browsers are set to accept cookies by default. You can remove or reject cookies, but be aware that such action could affect the availability and functionality of the App.</p>
+            <p class="placeholder-text"><strong>App Tracking Transparency (ATT):</strong> If we use identifiers for tracking (as defined by Apple), we will request your permission before doing so through Apple's ATT framework. You can manage your tracking preferences in your device settings.</p>
+
+            <h2>2. Use of Your Information</h2>
+            <p>Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the App to:</p>
+            <ul>
+                <li>Create and manage your account.</li>
+                <li>Generate recipes based on the ingredients you provide via photographs.</li>
+                <li>Improve the accuracy and functionality of our AI recipe generation model.</li>
+                <li>Email you regarding your account or order (if applicable).</li>
+                <li class="placeholder-text">Enable user-to-user communications (if applicable).</li>
+                <li class="placeholder-text">Fulfill and manage purchases, orders, payments, and other transactions related to the App (if applicable).</li>
+                <li>Increase the efficiency and operation of the App.</li>
+                <li>Monitor and analyze usage and trends to improve your experience with the App.</li>
+                <li>Notify you of updates to the App.</li>
+                <li class="placeholder-text">Offer new products, services, mobile applications, and/or recommendations to you (with your consent where required).</li>
+                <li>Perform other business activities as needed.</li>
+                <li>Prevent fraudulent transactions, monitor against theft, and protect against criminal activity.</li>
+                <li class="placeholder-text">Process payments and refunds (if applicable).</li>
+                <li>Request feedback and contact you about your use of the App.</li>
+                <li>Resolve disputes and troubleshoot problems.</li>
+                <li>Respond to product and customer service requests.</li>
+                <li class="placeholder-text">Send you a newsletter (with your consent).</li>
+                <li class="placeholder-text">[Add any other specific uses relevant to your app]</li>
+            </ul>
+
+            <h2>3. Disclosure of Your Information</h2>
+            <p>We may share information we have collected about you in certain situations. Your information may be disclosed as follows:</p>
+
+            <h3>By Law or to Protect Rights</h3>
+            <p>If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by any applicable law, rule, or regulation. This includes exchanging information with other entities for fraud protection and credit risk reduction.</p>
+
+            <h3>Third-Party Service Providers</h3>
+            <p>We may share your information with third parties that perform services for us or on our behalf, including data analysis, AI model processing (for ingredient recognition), email delivery, hosting services, customer service, and marketing assistance.</p>
+            <ul class="placeholder-text">
+                <li><strong>Cloud Hosting:</strong> [e.g., AWS, Google Cloud, Azure] for storing app data and processing images.</li>
+                <li><strong>Analytics Providers:</strong> [e.g., Firebase Analytics, Amplitude] to understand app usage. We will ensure these providers comply with privacy standards and, where applicable, data is anonymized or aggregated.</li>
+                <li class="placeholder-text"><strong>AI Service Providers:</strong> [If using a third-party AI API for image analysis, specify it here and link to their privacy policy.]</li>
+            </ul>
+            <p>We require our third-party service providers to use your personal information only to perform the services we have hired them to provide and to take reasonable measures to protect your personal information.</p>
+
+            <h3 class="placeholder-text">Marketing Communications</h3>
+            <p class="placeholder-text">[With your consent, or if permitted by opt-out, we may share your information with third parties for marketing purposes, as permitted by law. Clearly explain opt-in/opt-out mechanisms.]</p>
+
+            <h3 class="placeholder-text">Interactions with Other Users</h3>
+            <p class="placeholder-text">[If your app has social features, explain what information is visible to other users.]</p>
+
+            <h3 class="placeholder-text">Business Transfers</h3>
+            <p class="placeholder-text">We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</p>
+
+            <h2>4. Data Retention</h2>
+            <p>We will only retain your personal data for as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements. For example:</p>
+            <ul>
+                <li>Account information is retained as long as your account is active and for a reasonable period thereafter in case you decide to re-activate the Services.</li>
+                <li>Ingredient photographs submitted for recipe generation may be retained <span class="placeholder-text">[specify duration, e.g., "for up to X months"]</span> to improve our AI models, after which they are anonymized or deleted. You can request earlier deletion.</li>
+                <li>Usage data may be retained in an aggregated or anonymized form for analytical purposes for a longer period.</li>
+            </ul>
+            <p>When we have no ongoing legitimate business need to process your personal information, we will either delete or anonymize it, or, if this is not possible (for example, because your personal information has been stored in backup archives), then we will securely store your personal information and isolate it from any further processing until deletion is possible.</p>
+
+            <h2>5. Security of Your Information</h2>
+            <p>We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse. Any information disclosed online is vulnerable to interception and misuse by unauthorized parties. Therefore, we cannot guarantee complete security if you provide personal information.</p>
+
+            <h2>6. Your Data Protection Rights</h2>
+            <p>We are committed to ensuring you have control over your personal information. Depending on your jurisdiction (e.g., GDPR, CCPA), you may have the following rights:</p>
+            <ul>
+                <li><strong>Right to Access:</strong> You have the right to request copies of your personal data.</li>
+                <li><strong>Right to Rectification:</strong> You have the right to request that we correct any information you believe is inaccurate or complete information you believe is incomplete.</li>
+                <li><strong>Right to Erasure (Deletion):</strong> You have the right to request that we erase your personal data, under certain conditions. This includes data associated with your account and images you have uploaded.</li>
+                <li><strong>Right to Restrict Processing:</strong> You have the right to request that we restrict the processing of your personal data, under certain conditions.</li>
+                <li><strong>Right to Object to Processing:</strong> You have the right to object to our processing of your personal data, under certain conditions.</li>
+                <li><strong>Right to Data Portability:</strong> You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.</li>
+                <li><strong>Right to Withdraw Consent:</strong> If we are relying on your consent to process your personal data, you have the right to withdraw your consent at any time.</li>
+            </ul>
+            <p>To exercise these rights, please contact us using the contact details provided below. We will respond to your request within a reasonable timeframe and in accordanceance with applicable law. We may need to verify your identity before processing your request.</p>
+            <p class="placeholder-text">If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us at our email: [Your Support Email Address].</p>
+            <p class="placeholder-text">You may also have the right to lodge a complaint with a supervisory authority if you believe our processing of your personal data violates applicable law.</p>
+
+
+            <h2>7. Policy for Children (Children's Privacy)</h2>
+            <p>Our Service is not directed to individuals under the age of 13 (or a higher age threshold if required by applicable law in your jurisdiction, e.g., 16 in some EU countries). We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and you learn that your child has provided us with Personal Data without your consent, please contact us. If we become aware that we have collected Personal Data from a child under age 13 without verification of parental consent, we will take steps to remove that information from our servers.</p>
+            <p>If we need to rely on consent as a legal basis for processing your information and your country requires consent from a parent, we may require your parent's consent before we collect and use that information.</p>
+
+            <h2>8. Changes to This Privacy Policy</h2>
+            <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. If the changes are significant, we may also provide a more prominent notice (such as by adding a statement to our homepage or sending you a notification through the App or email).</p>
+            <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+
+            <h2>9. Contact Us</h2>
+            <p>If you have any questions or comments about this Privacy Policy, your personal information, our use and disclosure practices, or your consent choices, please contact us by email or mail at:</p>
+            <p class="placeholder-text">CookScan Privacy Team<br>
+            [Your Support Email Address, e.g., privacy@cookscan.app]<br>
+            [Your Company's Physical Mailing Address, if applicable]</p>
+
+            <hr class="my-8 border-gray-300">
+            <p class="text-sm text-gray-500 italic">
+                <strong>Disclaimer:</strong> This is a template and not legal advice. You should consult with a legal professional to ensure your Privacy Policy is complete, accurate, and compliant with all applicable laws and regulations (e.g., GDPR, CCPA, COPPA, Apple's App Store Guidelines) for your specific application, data collection practices, target audience, and jurisdiction. Replace all placeholder text with your specific information.
+            </p>
+        </div>
+    </main>
+
+    <footer class="text-center py-6 bg-gray-200 text-sm text-gray-600">
+        <p>&copy; <span id="currentYear"></span> CookScan. All rights reserved.</p>
+        <p class="placeholder-text">[Your Company Name, if different from App Name, and Address if required]</p>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
