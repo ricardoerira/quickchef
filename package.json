@@ -1,0 +1,17 @@
+{
+  "name": "firebase-static-site",
+  "version": "1.0.0",
+  "description": "A simple static website hosted on Firebase.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server public",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "firebase-tools": "^11.2.1",
+    "live-server": "^1.2.2"
+  }
+}
